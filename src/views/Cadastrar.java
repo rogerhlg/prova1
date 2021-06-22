@@ -9,7 +9,6 @@ import models.Triangulo;
 import controllers.FormaController;
 
 public class Cadastrar {
-	private static Scanner sc = new Scanner(System.in);
 	private static Retangulo retangulo;
 	private static Circulo circulo;
 	private static Triangulo triangulo;
@@ -25,7 +24,7 @@ public class Cadastrar {
 	public static void triangulo() {
 		triangulo = new Triangulo();
 		triangulo.setAltura(Console.lerInt("Insira o valor inteiro da ALTURA: ")); 
-		triangulo.setBase(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
+		triangulo.setBase(Console.lerInt("Insira o valor inteiro da BASE: ")); 
 		FormaController.cadastrar(triangulo);
 
 	}

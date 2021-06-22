@@ -13,7 +13,7 @@ public class Circulo extends Forma {
 
 	@Override
 	public String toString() {
-		return "Circulo raio: " + raio;
+		return "Circulo, área: " + calcularArea() ;
 	}
 
 	@Override
