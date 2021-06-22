@@ -15,26 +15,10 @@ public class Console {
 				valor = Integer.parseInt(sc.next());
 				valorCorreto = true;
 			} catch (Exception e) {
-				System.out.println("Digite um numero!");
+				System.out.println("Digite um numero inteiro!");
 			}
 		}while(!valorCorreto);
 		
-		return valor;
-	}
-	
-	public static double lerDouble(String msg) {
-		boolean valorCorreto = false;
-		double valor = 0;
-		do {
-			try {
-				System.out.println(msg);
-				valor = Double.parseDouble(sc.next());
-				valorCorreto = true;
-			} catch (Exception e) {
-				System.out.println("Digite um double! APAGAR METODO DEPOIS");
-			}
-		}while(!valorCorreto);
-		System.out.println("\n" + valor);
 		return valor;
 	}
 	

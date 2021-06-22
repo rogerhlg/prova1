@@ -1,7 +1,5 @@
 package views;
 
-import java.util.Scanner;
-
 import models.Retangulo;
 import utils.Console;
 import models.Circulo;

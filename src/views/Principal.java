@@ -15,7 +15,7 @@ public static void main(String[] args) {
 		System.out.println("\n5 - Listar Retangulo");
 		System.out.println("\n6 - Listar Circulo");
 		System.out.println("\n7 - Listar Triangulo");
-		System.out.println("0 - Sair");
+		System.out.println("\n0 - Sair");
 		opcao = Console.lerInt("\nInsira a opcao desejada: ");
 			
 		switch (opcao) {
