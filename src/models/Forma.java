@@ -1,5 +1,8 @@
 package models;
 
 public abstract class Forma {
-	abstract double calcularArea();
+	
+	public double calcularArea() {
+		return 0;
+	}
 }

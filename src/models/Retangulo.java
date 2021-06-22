@@ -22,7 +22,7 @@ public class Retangulo extends Forma {
 		return "Retangulo - altura: " + altura + ", largura: " + largura;
 	}
 	@Override
-	double calcularArea() {
+	public double calcularArea() {
 		return this.altura * this.largura;
 	}
 
