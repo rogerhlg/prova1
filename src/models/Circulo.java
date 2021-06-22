@@ -18,7 +18,7 @@ public class Circulo extends Forma {
 
 	@Override
 	public double calcularArea() {
-		return (this.raio * this.raio) * 3.14;
+		return super.calcularArea() + (this.raio * this.raio) * 3.14;
 	}
 
 }

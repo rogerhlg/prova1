@@ -23,7 +23,7 @@ public class Retangulo extends Forma {
 	}
 	@Override
 	public double calcularArea() {
-		return this.altura * this.largura;
+		return super.calcularArea() + this.altura * this.largura;
 	}
 
 }
