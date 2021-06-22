@@ -9,7 +9,6 @@ import models.Triangulo;
 import controllers.FormaController;
 
 public class Cadastrar {
-	private static Scanner sc = new Scanner(System.in);
 	private static Retangulo retangulo;
 	private static Circulo circulo;
 	private static Triangulo triangulo;

@@ -19,7 +19,7 @@ public class Retangulo extends Forma {
 	
 	@Override
 	public String toString() {
-		return "Retangulo - altura: " + altura + ", largura: " + largura;
+		return "Retangulo, área: " + calcularArea();
 	}
 	@Override
 	public double calcularArea() {
