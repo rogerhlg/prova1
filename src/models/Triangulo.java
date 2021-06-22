@@ -21,5 +21,9 @@ public class Triangulo extends Forma{
 	public String toString() {
 		return "Triangulo altura: " + altura + ", base: " + base;
 	}
+	@Override
+	double calcularArea() {
+		return (this.base * this.altura)/2;
+	}
 	
 }

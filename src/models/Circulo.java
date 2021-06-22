@@ -16,4 +16,9 @@ public class Circulo extends Forma {
 		return "Circulo raio: " + raio;
 	}
 
+	@Override
+	double calcularArea() {
+		return (this.raio * this.raio) * 3.14;
+	}
+
 }
