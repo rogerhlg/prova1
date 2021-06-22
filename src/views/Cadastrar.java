@@ -25,7 +25,7 @@ public class Cadastrar {
 	public static void triangulo() {
 		triangulo = new Triangulo();
 		triangulo.setAltura(Console.lerInt("Insira o valor inteiro da ALTURA: ")); 
-		triangulo.setBase(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
+		triangulo.setBase(Console.lerInt("Insira o valor inteiro da BASE: ")); 
 		FormaController.cadastrar(triangulo);
 
 	}
