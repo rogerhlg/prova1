@@ -1,7 +1,6 @@
 package views;
 
 import utils.Console;
-import views.Cadastrar;
 public class Principal {
 
 public static void main(String[] args) {

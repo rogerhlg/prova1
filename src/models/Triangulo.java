@@ -19,7 +19,7 @@ public class Triangulo extends Forma{
 	
 	@Override
 	public String toString() {
-		return "Triangulo, área: " + calcularArea();
+		return "Triangulo, ï¿½rea: " + calcularArea();
 	}
 	@Override
 	public double calcularArea() {
