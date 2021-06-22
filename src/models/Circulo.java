@@ -13,12 +13,12 @@ public class Circulo extends Forma {
 
 	@Override
 	public String toString() {
-		return "Circulo, área: " + calcularArea() ;
+		return "Circulo, area: " + calcularArea() ;
 	}
 
 	@Override
 	public double calcularArea() {
-		return super.calcularArea() + (this.raio * this.raio) * 3.14;
+		return (this.raio * this.raio) * 3.14;
 	}
 
 }

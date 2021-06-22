@@ -8,10 +8,6 @@ import models.Retangulo;
 import models.Triangulo;
 
 public class FormaController {
-	private static Retangulo retangulo = new Retangulo();
-	private static Triangulo triangulo = new Triangulo();
-	private static Circulo circulo = new Circulo();
-
 	private static ArrayList<Forma> formas = new ArrayList<Forma>();
 
 	public static ArrayList<Forma> listar() {
@@ -23,6 +19,7 @@ public class FormaController {
 	}
 		
 	public static ArrayList<Forma> listarRetangulos() {
+		Retangulo retangulo = new Retangulo();
 		ArrayList<Forma> formaUnica = new ArrayList<Forma>(); 
 		for(Forma retanguloCadastrado : formas) {
 			if(retanguloCadastrado.getClass().equals(retangulo.getClass())) {
@@ -33,6 +30,7 @@ public class FormaController {
 	}
 		
 	public static ArrayList<Forma> listarCirculos() {
+		Circulo circulo = new Circulo();
 		ArrayList<Forma> formaUnica = new ArrayList<Forma>(); 
 		for(Forma circuloCadastrado : formas) {
 			if(circuloCadastrado.getClass().equals(circulo.getClass())) {
@@ -43,6 +41,7 @@ public class FormaController {
 	}
 		
 	public static ArrayList<Forma> listarTriangulos() {
+		Triangulo triangulo = new Triangulo();
 		ArrayList<Forma> formaUnica = new ArrayList<Forma>(); 
 		for(Forma trianguloCadastrado : formas) {
 			if(trianguloCadastrado.getClass().equals(triangulo.getClass())) {
