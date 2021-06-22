@@ -23,7 +23,9 @@ public class Triangulo extends Forma{
 	}
 	@Override
 	public double calcularArea() {
-		return (this.base * this.altura)/2;
+		double area = this.base * this.altura;
+		area /= 2;
+		return area;
 	}
 	
 }
