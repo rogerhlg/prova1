@@ -1,9 +1,9 @@
 package views;
-
+import controllers.FormaController;
 
 public class Listar {
 	public static void retangulo(){
-		System.out.println("\n-- LISTA --  \n");
+		System.out.println("\n-- LISTA DE RETANGULOS--  \n");
 	}
 	
 	public static void circulo(){

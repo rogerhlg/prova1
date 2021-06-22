@@ -11,7 +11,7 @@ public class FormaController {
 		return formas;
 	}
 	
-	public void cadastrar(Forma forma) {
+	public static void cadastrar(Forma forma) {
 		formas.add(forma);
 	}
 		
