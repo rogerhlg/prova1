@@ -14,22 +14,22 @@ public class Cadastrar {
 	private static Triangulo triangulo;
 
 	
-	public void cadastrarRetangulo() {
+	public static void retangulo() {
 		retangulo = new Retangulo();
-		retangulo.setAltura(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
+		retangulo.setAltura(Console.lerInt("Insira o valor inteiro da ALTURA: ")); 
 		retangulo.setLargura(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
 	}
 	
-	public void cadastrarTriangulo() {
+	public static void triangulo() {
 		triangulo = new Triangulo();
-		triangulo.setAltura(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
+		triangulo.setAltura(Console.lerInt("Insira o valor inteiro da ALTURA: ")); 
 		triangulo.setBase(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
 
 	}
 	
-	public void cadastrarCirculo() {
+	public static void circulo() {
 		circulo = new Circulo();
-		circulo.setRaio(Console.lerInt("Insira o valor inteiro da LARGURA: ")); 
+		circulo.setRaio(Console.lerInt("Insira o valor inteiro do RAIO: ")); 
 
 	}
 
